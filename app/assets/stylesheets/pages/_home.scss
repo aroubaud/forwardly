@@ -1,1 +1,38 @@
 // Specific CSS for your home-page
+body {
+  margin: 0;
+}
+
+.banner {
+  height: 100vh;
+  background-size: cover;
+  background: #fbf9ff;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.banner-content {
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: medium;
+    font-size: 32px;
+    color: #3f0606;
+  }
+
+  p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #4b4a4c;
+    margin-top: 100px;
+  }
+}
+
+.form-control {
+  height: 35px;
+  width: 400px;
+  background: transparent;
+  border: 1px solid #4b4a4c;
+  border-radius: 3px;
+}
+
